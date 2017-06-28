@@ -14,9 +14,9 @@
         </style>
     </head>
     <body>
-        <div id="content">
-            <iframe width="100%" height="100%" frameborder="0" src="http://200.54.166.171/owncloud/index.php" />
-        </div>
+    <?php
+    	include 'http://200.54.166.171/owncloud/index.php'
+    ?>
     </body>		 		
     
 </html>
