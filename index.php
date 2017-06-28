@@ -15,18 +15,8 @@
     </head>
     <body>
         <div id="content">
-            <iframe width="100%" height="100%" frameborder="0" src="http://192.168.1.11/owncloud/index.php" />
+            <iframe width="100%" height="100%" frameborder="0" src="http://200.54.166.171/owncloud/index.php" />
         </div>
-        <?php 
-    #// Asignando direccion IP a variable IP_ADDRESS
-    $IP_ADDRESS = $_SERVER[REMOTE_ADDR];
-
-    #// Imprimiendo resultados en la Pagina Web
-    echo "Su IP es $_SERVER[REMOTE_ADDR]";
-
-    ##// Eso es todo... Terminado!
-
-?>
     </body>		 		
     
 </html>
